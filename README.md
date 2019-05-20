@@ -1,20 +1,3 @@
-# My typora theme
+# Custom typora theme
 
-## Headings
-
-###
-
-
-
-
-
-
-
-
-
-Font: Roboto
-
-Main background colour: #f5f7f9
-
-Text color: #242a31
-
+The theme css file is located in the custom-typora-theme directory, and can be tested in the html-preview directory taken from the [Typora Theme Toolkit](https://github.com/typora/typora-theme-toolkit/tree/master/html-preview).

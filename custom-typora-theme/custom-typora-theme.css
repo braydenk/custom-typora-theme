@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Roboto Regular"), url("./fonts/Roboto-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: normal;
+  src: local("Roboto Italic"), url("./fonts/Roboto-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Roboto Bold"), url("./fonts/Roboto-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Source Code Pro"), url("./fonts/SourceCodePro-Regular.woff") format("woff");
+}
+
+
+:root {
+    /* Base colors */
+  --background-base-color: #fafafa;
+  --font-color-base: #333;
+  --font-color-light: #999;
+  --link-color: rgb(56, 132, 255);
+
+  /* Typography */
+  --font-family: "Roboto", sans-serif;
+  --font-size-base: 14px;
+  --font-size-medium: 16px;
+  --font-size-large: 18px;
+
+  --h1-font-size: 36px;
+  --h2-font-size: 30px;
+  --h3-font-size: 24px;
+  --h4-font-size: 18px;
+  --h5-font-size: 14px;
+  --h6-font-size: 12px;
+
+  --headings-font-weight: 500;
+
+  /* Code blocks variables */
+  --code-background-color: #f5f5f5;
+  --code-font-color: #333;
+  --code-font-family: "Source Code Pro", sans-serif;
+}
+
+html,
+body {
+  font-family: var(--font-family);
+}
+
+body {
+  font-size: var(--font-size-base);
+}
+
+/* Writing area */
+#write {
+  width: 90%;
+  max-width: 700px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--headings-font-weight);
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+h4 {
+  font-size: var(--h4-font-size);
+}
+
+h5 {
+  font-size: var(--h5-font-size);
+}
+
+h6 {
+  font-size: var(--h6-font-size);
+}
+
+/* Lists */
+
+#write ol, #write ul {
+  padding-left: 2rem;
+  margin: 0.5rem 0;
+}
+
+#write ul {
+  list-style-type: disc;
+}
+
+#write ol > li,
+#write ul > li {
+  padding-left: 0.25em;
+}
+
+/* Link styles */
+
+a, .md-def-url {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* Code block styles */
+.cm-s-inner {
+  font-family: var(--code-block-font);
+  background-color: var(--code-background-color);
+  color: var(--code-font-color);
+}
+
+.cm-s-inner .CodeMirror-gutters {
+  background: var(--code-block-background-color);
+  color: #708090;
+  border: none;
+}
+
+.cm-s-inner .CodeMirror-guttermarker,
+.cm-s-inner .CodeMirror-guttermarker-subtle,
+.cm-s-inner .CodeMirror-linenumber {
+  color: rgb(83, 127, 126);
+}
+
+.cm-s-inner .cm-keyword {
+  color: #07a;
+}
+
+.cm-s-inner .cm-operator {
+  color: #9a6e3a;
+  background: hsla(0,0%,100%,.5);
+}
+
+.cm-s-inner .cm-number {
+  color: #905;
+}
+
+.cm-s-inner .cm-def {
+  color: #dd4a68;
+}
+
+.cm-s-inner .cm-string {
+  color: #c3e88d;
+}
+
+.cm-s-inner .cm-comment {
+  color: #708090;
+}
+
+code, .md-fences {
+  background-color: var(--background-base-color);
+  color: var(--font-color-base);
+  border: none;
+}
+
+.md-fences .code-tooltip {
+  background-color: var(--background-base-color);
+}
+
+/* Sidebar styles */
+#typora-sidebar * {
+  background: rgb(245, 247, 249);
+  border-right: 1px solid rgb(230, 236, 241);
+}
+
+.sidebar-tabs {
+  font-family: var(--font-family);
+  border-bottom: 1px solid rgb(230, 236, 241);
+}
+
+.file-list-item-file-name {
+  font-family: var(--font-family);
+}
+
+input.file-list-item-file-name, input.file-tree-rename-input {
+  background: rgb(245, 247, 249);
+}
+
+.outline-title-wrapper,
+.outline-item-wrapper.outline-h1 > .outline-item {
+  font-family: var(--font-family);
+  font-weight: bold;
+}
