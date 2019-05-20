@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+
 html,
 body,
 #write{
-	background: #fcfcfc;
-	font-family: sans-serif;
+	background: #f5f7f9;
+	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 }
 h1,
@@ -11,8 +13,8 @@ h3,
 h4,
 h5,
 h6 {
-	color: #111;
-	font-family: sans-serif;
+	color: rgb(36, 42, 49);;
+	font-family: "Roboto", sans-serif;
 }
 
 html {
@@ -37,12 +39,11 @@ html {
 	margin-top: 0.5rem;
 }
 h1 {
-	font-weight: normal;
+  font-weight: bold;
+  font-size: 2em;
 	line-height: 4rem;
 	margin: 0 0 1.75rem;
 	padding: 20px 30px;
-	text-align: center;
-	text-transform: uppercase;
 	margin-top: 4rem;
 }
 h2 {
@@ -50,8 +51,6 @@ h2 {
 	line-height: 3rem;
 	margin: 0 0 1.9375rem;
 	padding: 0 30px;
-	text-align: center;
-	text-transform: uppercase;
 	margin-top: 3rem
 }
 h3 {
@@ -69,10 +68,11 @@ h6 {
 	font-weight: bold;
 }
 p {
-	color: #111;
-	font-size: 1rem;
+	color: #242a31;
+  font-size: 16px;
+  font-weight: 400;
 	line-height: 1.75rem;
-	margin: 0 0 1.25rem;
+  margin: 0 0 1.25rem;
 }
 #write>h3.md-focus:before {
 	left: -1.875rem;
