@@ -168,7 +168,7 @@ p {
 }
 a,
 .md-def-url {
-	color: #990000;
+	color: #3884ff;
 	text-decoration: none;
 }
 a:hover {
@@ -285,7 +285,7 @@ blockquote p {
 	font-size: 1em;
 	padding-bottom: 1.5em;
 	padding-top: 3em;
-    margin-top: -1.5em;
+  margin-top: -1.5em;
 	color: #999;
 	border-left: 1000px #f8f8f8 solid;
 	margin-left: -1000px;
@@ -323,11 +323,11 @@ p.mathjax-block,
 
 /** ui for windows **/
 #md-searchpanel {
-    border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 
 #md-searchpanel .btn {
-    border: 1px solid #ccc;
+  border: 1px solid #ccc;
 }
 
 #md-notification:before {

@@ -1,5 +1,16 @@
 # My typora theme
 
+## Headings
+
+###
+
+
+
+
+
+
+
+
 
 Font: Roboto
 
